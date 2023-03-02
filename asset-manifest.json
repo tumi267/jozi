@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/jozi/static/css/main.cb73d5d8.css",
-    "main.js": "/jozi/static/js/main.2e1752f3.js",
+    "main.js": "/jozi/static/js/main.2dba5481.js",
     "static/js/787.3581f1a3.chunk.js": "/jozi/static/js/787.3581f1a3.chunk.js",
     "static/media/phone.png": "/jozi/static/media/phone.ffc20cf22f64db7533ac.png",
     "static/media/about.jpeg": "/jozi/static/media/about.5d6482450c713ba3a558.jpeg",
     "static/media/libary.jpeg": "/jozi/static/media/libary.bd765168ab1baeee3f3a.jpeg",
     "index.html": "/jozi/index.html",
     "main.cb73d5d8.css.map": "/jozi/static/css/main.cb73d5d8.css.map",
-    "main.2e1752f3.js.map": "/jozi/static/js/main.2e1752f3.js.map",
+    "main.2dba5481.js.map": "/jozi/static/js/main.2dba5481.js.map",
     "787.3581f1a3.chunk.js.map": "/jozi/static/js/787.3581f1a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb73d5d8.css",
-    "static/js/main.2e1752f3.js"
+    "static/js/main.2dba5481.js"
   ]
 }
