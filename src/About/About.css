@@ -48,7 +48,7 @@
 }
 @media screen and ((max-width:520px)){
     .left{
-        height: 95vh;
+        height: 75vh;
     }
     .right{
         height: 82vh;

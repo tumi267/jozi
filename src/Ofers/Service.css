@@ -37,7 +37,7 @@
 }
 @media screen and ((max-width:520px)){
     .service_image{
-        height: 30%;
+        height: 25%;
     }
     .service_text{
        border: none;

@@ -22,7 +22,7 @@ function Home() {
             default:
             break;
           }
-          }, 7000);  
+          }, 5000);  
           }else{
           setTimeout(()=>{
             document.documentElement.style.setProperty('--backing1','none')
