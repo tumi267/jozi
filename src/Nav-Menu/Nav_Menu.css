@@ -1,0 +1,54 @@
+:root{
+    --menu:none
+}
+.nav_menu{
+    display: var(--menu);
+    position: fixed; 
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    backdrop-filter: blur(4px);
+    margin-bottom: 30px;
+}
+.nav_menu_list{
+    background-color:#ffff;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 70%;
+    padding-top: 5%;
+    padding-left: 2%;
+    position: relative;
+    animation: sideleft 2s ;
+}
+.close_menu{
+    color: #24294b;
+    position: relative;
+    left:60%;
+    cursor: pointer;
+}
+.nav-links{
+    margin-bottom: 3%;
+    font-size: 2rem;
+    color: #24294b;
+    text-decoration: none;
+}
+@keyframes sideleft {
+    0%{
+        opacity: 0;
+        right:-100%
+    }
+    100%{
+        opacity: 1;
+        right: 0%;
+    }
+}
+@media screen and ((max-width:520px)){
+    .nav_menu_list{
+        margin-left: 61.5%;
+    }
+}

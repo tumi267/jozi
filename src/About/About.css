@@ -1,0 +1,57 @@
+.About_contain{
+    background-image: linear-gradient(to right,#121226,#24294b ,#121226);
+    color: aliceblue;
+}
+.left{
+    height: 40vh;
+    width: 60%;
+    margin-bottom: 40%;
+}
+.right{
+    background-image: linear-gradient(to right,#121226,#24294b ,#121226);
+    position: absolute;
+    top: 49.8vh;
+    left:40%;
+    width: 60%;
+    height: 65vh;
+}
+.left_image{
+    height: 100vh;
+    width: 100%;
+}
+.logo_image{height: 150px;}
+.About_discreption_text_right{
+    margin-top: 10%;
+    width: 80%;
+}
+.About_discreption{
+    display: flex;
+    background-color: #ffffff;
+    color: #121226;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.About_discreption_text{  
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and ((max-width:937px)){
+    .left{
+        height: 95vh;
+    }
+    .right{
+        height: 100vh;
+    } 
+}
+@media screen and ((max-width:520px)){
+    .left{
+        height: 95vh;
+    }
+    .right{
+        height: 82vh;
+    } 
+    .logo_image{width: 100%;}
+}

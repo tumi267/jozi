@@ -1,0 +1,104 @@
+.contact_contain{
+    height: 90vh;
+    background-image: url('../images/phone.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #7e807c;
+}
+.contact{
+    position: relative;
+    display: flex;
+}
+.phone{
+    top: 40%;
+    right: -10%;
+    animation: phone 3s;
+}
+h3{
+    margin: 0%;
+    border-left: 2px solid;
+    padding-left: 1%;
+}
+.mail{
+    top: 20%;
+    left: 30%;
+    animation: mail 3s;
+}
+.address{
+    top: 33%;
+    left: 45%;
+    animation: address 3s;
+}
+@keyframes phone{
+    0%{ opacity: 0;
+        right: -35%;
+        top: 50%;
+        font-size: 0%
+    };
+    100%{right:0%;
+        opacity: 1;
+    }
+}
+@keyframes mail{
+    0%{ 
+        opacity: 0%;
+        top: 50%;
+        font-size: 0%
+    };
+}
+@keyframes address{
+    0%{ opacity: 0;
+        left: 32%;
+        top: 43%;
+        font-size: 0%
+    };
+    100%{left:0%;
+        opacity: 1;
+    }
+}
+@media screen and ((max-width:520px)){
+
+    .contact{
+    position: absolute;
+    }
+    .address{
+        top: 60%;
+        left: 45%;  
+    }
+    .mail{
+        top: 40%;
+        left: 30%;
+    }
+    .phone{
+        top: 50%;
+        right: 55%;
+        width: 40%;
+    }
+    @keyframes phone{
+        0%{ opacity: 0;
+            right: 30%;
+            top: 70%;
+            
+        };
+        100%{right:0%;
+            opacity: 1;
+        }
+    }
+    @keyframes mail{
+        0%{ 
+            opacity: 0%;
+            top: 60%;
+            
+        };
+    }
+    @keyframes address{
+        0%{ opacity: 0;
+            left: 32%;
+            top: 63%;
+            
+        };
+        100%{left:0%;
+            opacity: 1;
+        }
+    }
+}

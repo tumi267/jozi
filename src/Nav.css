@@ -1,0 +1,16 @@
+.nav_bar_contain{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+    align-items: center;
+    background-image: linear-gradient(to right,#121226,#24294b ,#121226);
+    color:aliceblue;
+    font-size: large;
+    font-weight: 500;
+    height: 80px;
+
+}
+.nav_bar_logo{
+ height: 60px;
+}
