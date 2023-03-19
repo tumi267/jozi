@@ -4,6 +4,7 @@
     color: rgb(207 175 82);
     display: flex;
     justify-content: space-evenly;
+    gap: 2%;
 }
 .service_colom{
     width: 33.3%;
@@ -31,23 +32,16 @@
     100%{opacity: 1;}
 }
 @media screen and ((max-width:937px)){
-    .contain_Service{
-       height: 110vh;
-    }
-}
-@media screen and ((max-width:520px)){
     .service_image{
-        height: 25%;
+        height: 16%;
     }
     .service_text{
        border: none;
     }
-    .service_right{
-        padding: 10%;
-       
-    }
+
     .contain_Service{
        height: 150vh;
-        padding-left: 5%;
+   
     }
 }
+

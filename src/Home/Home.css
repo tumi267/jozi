@@ -13,15 +13,15 @@
 }
 .home_hero_img_0{
 display:var(--backing0) ;
-background-image: url('../images/libary.jpeg');
+background-image: url('../../public/images/libary.jpeg');
 }
 .home_hero_img_1{
 display:var(--backing1) ;
-background-image: url('../images/legal_consel.jpeg');
+background-image: url('../../public/images/legal_consel.jpeg');
 }
 .home_hero_img_2{
 display:var(--backing2) ;
-background-image: url('../images/service_home.jpeg');
+background-image: url('../../public/images/service_home.jpeg');
 }
 .imagesbacking{
     animation: fade-in 2s;
