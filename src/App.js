@@ -12,9 +12,9 @@ function App() {
   <Nav/>
   <Routes>
   <Route path="/*" element={<Home/>}/>
-  <Route path="/About" element={<About/>}/>
-  <Route path="/Service" element={<Service/>}/>
-  <Route path="/Contact" element={<Contact/>}/>
+  <Route path="/jozi/About" element={<About/>}/>
+  <Route path="/jozi/Service" element={<Service/>}/>
+  <Route path="/jozi/Contact" element={<Contact/>}/>
   </Routes>
   <Copy/>
   </BrowserRouter>
